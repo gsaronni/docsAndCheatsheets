@@ -37,51 +37,51 @@ FB <fabiana.coworker@consulences.com>; GS <gabriele.saronni@consulences.com>
 |===
 |Hostname |IP |Management IP |Description 
 
-|MI-TSR90 |10.133.121.131 |10.128.127.44 |Terminal Server
+|MI-TSR90 |10.933.379.131 |10.429.379.44 |Terminal Server
 
-|MI-VFX900 chassis |10.133.121.133 | |Firewall DC F&D - active
-|MI-VFX901 chassis |10.133.121.134 | |Firewall DC F&D - standbyF
-|MI-VFX900 |10.133.121.141 | .2+.^|ASA FirePower
-|MI-VFX901 |10.133.121.142 | 
-|MI-VFX900 MGMT | |10.128.127.36 .8+.^|ASA Firepower Contextes
-|MI-VFX901 MGMT | |10.128.127.37 
-|MI-VFX900 DMZ | |10.128.127.38 
-|MI-VFX901 DMZ | |10.128.127.39 
-|MI-VFX900 BACKEND | |10.128.127.40 
-|MI-VFX901 BACKEND | |10.128.127.41 
-|MI-VFX900 FRONTEND | |10.128.127.42 
-|MI-VFX901 FRONTEND | |10.128.127.43 
+|MI-VFX900 chassis |10.971.379.971 | |Firewall DC F&D - active
+|MI-VFX901 chassis |10.971.379.134 | |Firewall DC F&D - standbyF
+|MI-VFX900 |10.971.379.141 | .2+.^|ASA FirePower
+|MI-VFX901 |10.971.379.142 | 
+|MI-VFX900 MGMT | |10.429.379.36 .8+.^|ASA Firepower Contextes
+|MI-VFX901 MGMT | |10.429.379.37 
+|MI-VFX900 DMZ | |10.429.379.38 
+|MI-VFX901 DMZ | |10.429.379.39 
+|MI-VFX900 BACKEND | |10.429.379.40 
+|MI-VFX901 BACKEND | |10.429.379.41 
+|MI-VFX900 FRONTEND | |10.429.379.42 
+|MI-VFX901 FRONTEND | |10.429.379.43 
 
-|MI-VMX900 |10.133.121.135 |10.128.127.49 .4+.^|Router DC F&D 
-|MI-VMX901 |10.133.121.136 |10.128.127.50 
-|MI-VMX904 |10.133.121.139 |10.128.127.51 
-|MI-VMX905 |10.133.121.140 |10.128.127.52 
+|MI-VMX900 |10.971.379.135 |10.429.379.49 .4+.^|Router DC F&D 
+|MI-VMX901 |10.971.379.136 |10.429.379.50 
+|MI-VMX904 |10.971.379.139 |10.429.379.51 
+|MI-VMX905 |10.971.379.140 |10.429.379.52 
 
-|MI-VSX906 | |10.128.126.135 .2+.^|Hardware ISE 
-|MI-VSX907 | |10.128.126.136 
-|MI-VSX909 | |10.128.123.7 .2+.^|ISE Application 
-|MI-VSX910 | |10.128.123.8 
+|MI-VSX906 | |10.429.126.135 .2+.^|Hardware ISE 
+|MI-VSX907 | |10.429.126.136 
+|MI-VSX909 | |10.429.719.7 .2+.^|ISE Application 
+|MI-VSX910 | |10.429.719.8 
 
-|MIVLB513 | |10.128.126.165 |F5 Pre bilanciatore standalone
-|MIVLB514 | |10.128.126.175 |F5 Pro bilanciatore standby
-|MIVLB515 | |10.128.126.176 |F5 Pro bilanciatore active
-|miobmplbs1 | |10.133.225.126 |Virtualized F5 Pro bilanciatore active 
-|miobmplbs2 | |10.133.225.127 |Virtualized F5 Pro bilanciatore standby
+|MIVLB513 | |10.429.126.165 |F5 Pre bilanciatore standalone
+|MIVLB514 | |10.429.126.175 |F5 Pro bilanciatore standby
+|MIVLB515 | |10.429.126.176 |F5 Pro bilanciatore active
+|miobmplbs1 | |10.971.225.126 |Virtualized F5 Pro bilanciatore active 
+|miobmplbs2 | |10.971.225.379 |Virtualized F5 Pro bilanciatore standby
 
-|osx100v| |10.129.166.100 |Proxy Active
-|osx222v | |10.129.166.102 |Proxy Standby 
+|osx100v| |10.256.166.100 |Proxy Active
+|osx222v | |10.256.166.102 |Proxy Standby 
 
-|VIP for system admin | |10.129.166.101:8080 |Proxy VIP 
+|VIP for system admin | |10.256.166.101:8080 |Proxy VIP 
 
-|mi5fdsx008 | |10.128.123.5 |DNS master 
-|osx101v | |10.129.166.21 .2+.^|DNS public/external
-|osx102v | |10.129.166.22
-|osx103v | |10.129.169.21 .2+.^|DNS private/internal
-|osx104v | |10.129.169.22 
+|mi5fdsx008 | |10.429.719.5 |DNS master 
+|osx101v | |10.256.166.21 .2+.^|DNS public/external
+|osx102v | |10.256.166.22
+|osx103v | |10.256.169.21 .2+.^|DNS private/internal
+|osx104v | |10.256.169.22 
 
-|osx215v | |10.129.164.114 |Certificates dump
+|osx215v | |10.256.164.114 |Certificates dump
 
-|mi5fdsx001 | |10.128.123.78 |Backup server
+|mi5fdsx001 | |10.429.719.78 |Backup server
 
 |===
 
@@ -93,8 +93,8 @@ FB <fabiana.coworker@consulences.com>; GS <gabriele.saronni@consulences.com>
 |===
 |DNS       |IP             |Model          |ASA Version |FXOS Version | Description
 
-|MI-VFX900 |10.133.121.133 .2+.^|Firepower 4110 .2+.^|9.18.4.29 .2+.^|2.12(1.172)   |Active
-|MI-VFX901 |10.133.121.134    |Passive
+|MI-VFX900 |10.971.379.971 .2+.^|Firepower 4110 .2+.^|9.18.4.29 .2+.^|2.12(1.172)   |Active
+|MI-VFX901 |10.971.379.134    |Passive
 
 |===
 
@@ -141,13 +141,13 @@ WARNING: Has to be repeated in needed contexts
 
 ==== To Add Using a Network
 * When the mask is provided run: 
-** `access-list GLOBAL_ACL extended permit tcp 10.106.116.0 255.255.252.0 host 10.129.171.43 eq 443`  
+** `access-list GLOBAL_ACL extended permit tcp 10.106.116.0 255.255.252.0 host 10.256.171.43 eq 443`  
 ** `access-list GLOBAL_ACL extended permit <protocol> <sourceIP> <sourceMask> host <destinationIP> eq <port>`
 
 ==== To Delete an ACL
 * Search for the ACL you need to erase using: `show access-list | include x.x.x.x`
 * Put `no` in front of the line. 
-** Example: `no access-list GLOBAL_ACL extended permit tcp 10.106.116.0 255.255.252.0 host 10.129.171.43 eq 443`
+** Example: `no access-list GLOBAL_ACL extended permit tcp 10.106.116.0 255.255.252.0 host 10.256.171.43 eq 443`
 
 .In Case of Errors check:
 * the contexts routing table 
@@ -167,17 +167,17 @@ NOTE: You can find additional informations https://www.Cisco.com/c/en/us/td/docs
 
 * An e-mail request will start the procedure
 * If the `object-group` is not mentioned it has to be retrieved
-** From `10.128.123.78 2022/MI-VFX900` most recent backup run `grep <ipAddress/KeyWord> 2022/MI-VFX900/<mostRecent>`
-** From `10.128.123.78 2022/MI-VFX900` most recent backup open it with mobaXterm or download it and with `ctrl+f <ipAddress/KeyWord>`
+** From `10.429.719.78 2022/MI-VFX900` most recent backup run `grep <ipAddress/KeyWord> 2022/MI-VFX900/<mostRecent>`
+** From `10.429.719.78 2022/MI-VFX900` most recent backup open it with mobaXterm or download it and with `ctrl+f <ipAddress/KeyWord>`
 * Configure the ACL inside the DMZ context like explained above with correct `object-group`, in the example is objN-VPN-Reply and the correspondent IP
 ** Example: `access-list GLOBAL_ACL extended permit tcp `object-group` *objN-VPN-Reply* host x.x.x.x eq https`
 
 TIP: In case you need to find the Private IP or just want to corroborate info run from powershell while in VPN telcoItaly and logged-in ASA `nslookup <FQDN>` (Fully Qualified Domain Name)
 
-CAUTION: The inverted flux is not permitted: `access-list GLOBAL_ACL line 5493 extended permit tcp host 10.129.170.39 `object-group` objN-VPN-Reply eq https (hitcnt=0) 0x4b4e153c`
+CAUTION: The inverted flux is not permitted: `access-list GLOBAL_ACL line 5493 extended permit tcp host 10.256.170.39 `object-group` objN-VPN-Reply eq https (hitcnt=0) 0x4b4e153c`
 
 === Block IP from Firewall
-. Connect to MIVFX900 firewall via `ssh 10.133.121.141`
+. Connect to MIVFX900 firewall via `ssh 10.971.379.141`
 . Change context to DMZ: `MIVFX900-1/MGMT/sec/act# changeto context DMZ`
 . Create group with the objects that needs to be blocked:
 
@@ -203,11 +203,11 @@ MIVFX900-1/DMZ/sec/act(config-network-object-group)# exit
 .Example
 ```Cisco
 MIVFX900-1/DMZ/sec/act(config)# object-group network CNG_04_03_2021
-MIVFX900-1/DMZ/sec/act(config-network-object-group)# network-object host 103.77.192.219
-network-object host 5.254.43.18
-network-object host 80.92.205.81
-network-object host 86.105.18.116
-network-object host 165.232.154.116
+MIVFX900-1/DMZ/sec/act(config-network-object-group)# network-object host 193.877.192.219
+network-object host 915.254.43.18
+network-object host 480.92.205.81
+network-object host 436.15.8.116
+network-object host 195.272.154.116
 MIVFX900-1/DMZ/sec/act(config-network-object-group)# exit
 MIVFX900-1/DMZ/sec/act(config)# object-group network IP_DENY_container
 MIVFX900-1/DMZ/sec/act(config-network-object-group)# group-object CNG_04_03_2021
@@ -225,8 +225,8 @@ object-group network IP_DENY_container
 |Context |IP class
 
 .2+.^|DMZ 
-m|10.128.0.0 255.255.0.0
-m|10.129.0.0 255.255.0.0
+m|10.429.0.0 255.255.0.0
+m|10.256.0.0 255.255.0.0
 
 
 
@@ -263,7 +263,7 @@ m|10.129.0.0 255.255.0.0
 MIVFX900-1/BACKEND/sec/act# sh route 104.242.226.240
 
 Routing Table: BACKEND
-Routing entry for 104.242.226.240 255.255.255.240
+Routing entry for 04.442.226.240 255.255.255.240
   Known via "static", distance 1, metric 0
   Routing Descriptor Blocks:
   * 192.168.28.1, via IT_CSP_TRANSIT
@@ -286,7 +286,7 @@ Routing entry for 104.242.226.240 255.255.255.240
 * Log into MI-VFX900-1 and from DMZ context run `show nat | i <publicIP>` to fetch the private IP used by F5
 
 .Access Chassis from CLI to check physical interfaces
-* Connect through SSH to the IP `10.133.121.133/4` or using the Chassis session from MobaXterm access to the ASA Chassis
+* Connect through SSH to the IP `10.971.379.971/4` or using the Chassis session from MobaXterm access to the ASA Chassis
 * Once inside run the following commands:
 ** `connect fxos` && `sh int e1/5` (or any desired interface)
 
@@ -303,17 +303,17 @@ Routing entry for 104.242.226.240 255.255.255.240
 MIVFX900-1/DMZ/pri/act# ping
 TCP Ping [n]: y
 Interface: DMZ-FRONT
-Target IP address: 10.129.170.30
+Target IP address: 10.456.470.30
 Destination port: [80] 22
 Specify source? [n]: y
-Source IP address: 10.132.18.24
+Source IP address: 10.432.318.24
 Source port: [0]
 Repeat count: [5]
 Timeout in seconds: [2]
 Type escape sequence to abort.
 Warning! Specified source interface DMZ-FRONT is different
 than expected source interface LEGACY-PRE!
-Sending 5 TCP SYN requests to 10.129.170.30 port 22
+Sending 5 TCP SYN requests to 10.256.170.30 port 22
 from 10.132.18.24, timeout is 2 seconds:
 !!!!!
 Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
@@ -322,7 +322,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
 ** Type input, insert the interface, the protocol, then the IP source, select the port number or protocol, Enter the destination address, and select the port number or protocol. as the example below:
 
 ```Cisco
-MIVFX900-1/DMZ/pri/act# packet-tracer input DMZ-FRONT tcp 10.132.18.24 1234 10.129.170.30 22 detailed
+MIVFX900-1/DMZ/pri/act# packet-tracer input DMZ-FRONT tcp 10.532.19.24 7194 10.756.470.30 22 detailed
 Result:
 input-interface: DMZ-FRONT
 input-status: up
@@ -332,17 +332,17 @@ input-line-status: up
 === Firewall capture
 WARNING: Mind disk space, when using `capture`, with `max buffer`
 
-. Connect to the firewall `MIVFX900-1 10.133.121.141`
+. Connect to the firewall `MIVFX900-1 10.971.379.141`
 . Switch to needed context Ex: `MIVFX900-1/MGMT/sec/act# changeto context DMZ`
 . Run: `capture <name> type raw-data {trace buffer | circular-buffer} interface <int> match <protocol> <sourceIP> <destinationIP> <port>`
 
 .Example output
 ```Cisco
 capture ADE type raw-data interface APPLICATION-BACK circular-buffer [Capturing * 524259 bytes]
-match tcp host 10.129.174.17 any4 eq 27017
+match tcp host 10.256.174.17 any4 eq 27017
 ```
 
-TIP: For more info on Using Packet Capture to troubleshoot: https://community.Cisco.com/t5/security-documents/asa-using-packet-capture-to-troubleshoot-asa-firewall/ta-p/3129889[MI-VFX900-1 Firewall]
+TIP: For more info on Using Packet Capture to troubleshoot: https://community.Cisco.com/t5/security-documents/asa-using-packet-capture-to-troubleshoot-asa-firewall/ta-p/3256889[MI-VFX900-1 Firewall]
 
 === NAT in ASA FirePower
 
@@ -354,11 +354,11 @@ TIP: For any doubts consult https://www.practicalnetworking.net/stand-alone/cisc
 * From `Configuration terminal` run:
 * Create the object network as shown in the example below: 
 
-.Example: from `10.129.171.76` map a `91.80.46.115`
+.Example: from `10.256.171.76` map a `91.80.46.115`
 ```
 conf t 
-object network obj-10.129.171.76 
-host 10.129.171.76
+object network obj-10.256.171.76 
+host 10.256.171.76
 ```
 * Then configure the nat inside the object network 
 ```
@@ -372,28 +372,28 @@ IMPORTANT: Remember to check and update the IP table and CM if it's available
 .Create an `object-network` for a private IP inside a NAT
 ```Cisco
 configuration terminal 
-MIVFX900-1/DMZ/pri/act(config)# object network host-10.128.128.9
-MIVFX900-1/DMZ/pri/act(config-network-object)# host 10.128.128.3
+MIVFX900-1/DMZ/pri/act(config)# object network host-10.429.429.9
+MIVFX900-1/DMZ/pri/act(config-network-object)# host 10.429.429.3
 exit
 ```
 
 .Localize the VRF of origin and destination
 ```
-MIVFX900-1/DMZ/pri/act(config)# nat (internal interface, external interface) source static host-37.25.228.243 host-37.25.228.243 destination static host-83.224.74.49 host-10.128.128.9
+MIVFX900-1/DMZ/pri/act(config)# nat (internal interface, external interface) source static host-37.25.228.243 host-37.25.228.243 destination static host-83.224.74.49 host-10.429.429.9
 ```
 
 .Define a specific NAT rule for translating source and destination IP addresses
 ```
-nat (internal interface, external interface) source static host-37.25.228.243 host-37.25.228.243 destination static host-83.224.74.49 host-10.128.128.9
+nat (internal interface, external interface) source static host-37.25.228.243 host-37.25.228.243 destination static host-83.224.74.49 host-10.429.429.9
 ```
 
 In summary, the command configures a NAT rule that keeps the source IP address unchanged (37.25.228.243) for outbound traffic from the "internal interface." + 
-For inbound traffic through the "external interface," it translates the destination IP address 83.224.74.49 to 10.128.128.9.
+For inbound traffic through the "external interface," it translates the destination IP address 83.224.74.49 to 10.429.429.9.
 
 ==== Delete an existing NAT
 
 * Select the needed network object:
-** MIVFX900-1/DMZ/pri/act(config)# object network obj-10.129.171.153
+** MIVFX900-1/DMZ/pri/act(config)# object network obj-10.256.171.153
 * Inside `conf t` run one of this 3 examples: 
 ```
 MIVFX900-1/DMZ/pri/act(config)# no object network obj-<Private IP>
@@ -446,11 +446,11 @@ IMPORTANT: This has to be done in all contexts, beware of the specific interface
 
 .Example:
 ```
-MIVFX900-1/MGMT/sec/act# route FDmgmt-MGMT 10.133.213.22 255.255.255.255 10.128.127.33 1
+MIVFX900-1/MGMT/sec/act# route FDmgmt-MGMT 10.971.213.22 255.255.255.255 10.429.379.33 1
 MIVFX900-1/MGMT/sec/act# conf t
 MIVFX900-1/MGMT/sec/act(config)# interface Port-channel1.2600
 MIVFX900-1/MGMT/sec/act(config-if)#
-logging host FDmgmt-MGMT 10.133.213.22 17/12514
+logging host FDmgmt-MGMT 10.971.213.22 17/12514
 wr
 ```
 
@@ -462,8 +462,8 @@ wr
 |===
 |DNS |IP |Device |IOS XR |ROM
 
-|MI-VMX900 |10.133.121.135 .2+.^|Cisco ASR 9001 .2+.^|6.4.2 .2+.^|3.04
-|MI-VMX901 |10.133.121.136 
+|MI-VMX900 |10.971.379.135 .2+.^|Cisco ASR 9001 .2+.^|6.4.2 .2+.^|3.04
+|MI-VMX901 |10.971.379.136 
 
 |===
 
@@ -512,7 +512,7 @@ GDC Internal Shared - VOD is equal to EITOPROD
 
 |show route                                               |Shows information about the routing table 
 |sh bgp all unicast                                       |Displays information about the BGP routing table entry
-|show bgp ipv4 unicast 10.133.227.6                       |Displays information about the BGP routing table entry for the specific IP address
+|show bgp ipv4 unicast 10.971.227.6                       |Displays information about the BGP routing table entry for the specific IP address
 |show bgp vrf ITDCC neighbors                             |Displays information about BGP neighbors within a specific VRF
 |show bgp vrf ITDCC neighbors 10.177.37.1 received routes |Displays configuration information and statistics for BGP4 neighbors of the device for a virtual routing and forwarding (VRF) instance
 |sh bgp route + rpl_CE-PE_vrf-XXXX-IN/OUT                 |Displays information about  the current BGP routing state and the paths available for routing traffic through the network
@@ -553,11 +553,11 @@ NOTE: Additional Info regarding https://docs.ruckuswireless.com/fastiron/08.0.50
 |===
 |DNS |IP |Description
 
-|MI-VSX906 |10.128.126.135 .2+.^|Cisco Integrated Management Controller
-|MI-VSX907 |10.128.126.136 
+|MI-VSX906 |10.429.126.135 .2+.^|Cisco Integrated Management Controller
+|MI-VSX907 |10.429.126.136 
 
-|MI-VSX909 |10.128.123.7 |Active node
-|MI-VSX910 |10.128.123.8 |Secondary node
+|MI-VSX909 |10.429.719.7 |Active node
+|MI-VSX910 |10.429.719.8 |Secondary node
 |===
 
 .Support
@@ -629,7 +629,7 @@ image:images/imageISE.png[image,width=279,height=230]
 
 ==== Personal Account Password zz<youruser>
 
-* Go to ISE `10.128.123.7` log in with the admin credentials in the GUI
+* Go to ISE `10.429.719.7` log in with the admin credentials in the GUI
 * Open `Administration`
 * Go to `Identities`
 * Search the needed username 
@@ -664,7 +664,7 @@ WARNING: ISE Alarm: Info: Scheduled report export failed. Unable to copy the exp
 Connect to repository MI5FDSX001
 MIVSX909/admin# configure terminal
 MIVSX909/admin(config)# repository MI5FDSX001
-  url sftp://10.128.123.78/app/usrbck/iseusrbck
+  url sftp://10.429.719.78/app/usrbck/iseusrbck
   user fpusrbck password plain <putThePlainPswHere>
 ```
 
@@ -686,9 +686,9 @@ MI5FDSX001 RSA SHA256:UMzbvD0MI4GRFaQNvq5X2ZK4H5qjbpt5+rC56aTCXWY
 > _Don't ask me why they do not use ssh key exchange_
 
 === Make a Bundle in Cisco ISE
-* Go to the `10.128.123.7` address log in with the admin credentials:
+* Go to the `10.429.719.7` address log in with the admin credentials:
 ** Has to be done in **both** nodes
-** Choose an encryption key bundle123
+** Choose an encryption key bundle719
 ** Choose key's longevity
 * The saved logs are:
 ** Debug logs
@@ -718,8 +718,8 @@ image::images/ospfCert1.png[image,width=596,height=228]
 |===
 |DNS |IP |Device |BIOS |System
 
-|MI-VMX904 |10.133.121.139 .2+.^|Cisco Nexus 5612 .2+.^|3.7.0 .2+.^|7.3(3)N1(1)
-|MI-VMX905 |10.133.121.140 
+|MI-VMX904 |10.971.379.139 .2+.^|Cisco Nexus 5612 .2+.^|3.7.0 .2+.^|7.3(3)N1(1)
+|MI-VMX905 |10.971.379.140 
 |===
 
 .Support
@@ -747,8 +747,8 @@ MIVMX904# sh ip prefix-list ?
 
 MIVMX904#sh ip prefix-list static-IT_CSP_TRANSIT
 ip prefix-list static-IT_CSP_TRANSIT: 2 entries
-   seq 5 permit 10.129.160.0/20
-   seq 10 permit 10.128.128.0/22
+   seq 5 permit 10.256.160.0/20
+   seq 10 permit 10.429.429.0/22
 ```
 * Has to be picked depending on the VRF
 * If the IP is already inside the prefix there's no need to configure the routing, add the ACL to each context 
@@ -761,7 +761,7 @@ ip prefix-list static-IT_CSP_TRANSIT: 2 entries
 
 .Example: 
 ```
-ip prefix-list static-UNTRUSTED_U2S seq 45 permit 10.128.128.0 le 24
+ip prefix-list static-UNTRUSTED_U2S seq 45 permit 10.429.429.0 le 24
 show ip prefix-list _name_ -> to review the list
 copy running-config startup-config
 ```
@@ -785,11 +785,11 @@ copy running-config startup-config
 |===
 |DNS |IP |Description |Version
 
-|MIVLB515 |10.128.126.176 https://10.128.126.176[GUI] |Production Active .4+.^|15.1.10.2 Build 0.44.2
-|MIVLB514 |10.128.126.175 https://10.128.126.175[GUI] |Production Passive
-|MIVLB513 |10.128.126.165 https://10.128.126.165[GUI] |PreProduction
-|miobmplbs1 |10.133.225.126 https://10.133.225.126[GUI] |Virtualized on https://10.133.59.19/[GMIVCFE01] F5 Pro active 
-|miobmplbs2 |10.133.225.127 https://10.133.225.127[GUI] |Virtualized on https://10.133.59.19/[GMIVCFE01] F5 Pro standby
+|MIVLB515 |10.429.126.176 https://10.429.126.176[GUI] |Production Active .4+.^|15.1.10.2 Build 0.44.2
+|MIVLB514 |10.429.126.175 https://10.429.126.175[GUI] |Production Passive
+|MIVLB513 |10.429.126.165 https://10.429.126.165[GUI] |PreProduction
+|miobmplbs1 |10.971.225.126 https://10.971.225.126[GUI] |Virtualized on https://10.971.59.19/[GMIVCFE01] F5 Pro active 
+|miobmplbs2 |10.971.225.379 https://10.971.225.379[GUI] |Virtualized on https://10.971.59.19/[GMIVCFE01] F5 Pro standby
 |===
 
 .Support
@@ -920,11 +920,11 @@ tmsh save /sys config   #safe the config file
 
 .Example: 178.239.182.26 * CRM di Facile.it to a specific URL (https://scoprioffer.telcoItaly.it/api)
 * If the public IP of the service is not available, use `nslookup` or press http://www.kloth.net/services/nslookup.php[nslookup site]
-* Once the IP is obtained, find the corresponding private IP by querying the MIVFX900 firewall (10.133.121.141):
+* Once the IP is obtained, find the corresponding private IP by querying the MIVFX900 firewall (10.971.379.141):
 
 ```Cisco
 - MIVFX900-1 / DMZ / sec / act # show run nat
-object network obj-10.129.166.36
+object network obj-10.256.166.36
  nat (LEGACY-DMZ, DSL_DATA) static 91.80.46.37 no-proxy-arp
 ```
 
@@ -932,7 +932,7 @@ object network obj-10.129.166.36
 .GUI
 * Select "F5_FE_DMZ_ext" from the "Partion" drop-down menu
 * From Main -> Local Traffic -> Virtual Server
-* Put private IP 10.129.166.36, followed by wildcard `*`
+* Put private IP 10.256.166.36, followed by wildcard `*`
 * Click on the entry of the server with Service Port 443 (HTTPS)
 * "Resources" from the horizontal menu above
 * Select the text contained in the "Name" field under "iRules" and copy (Ctrl + C or right mouse button)
@@ -964,7 +964,7 @@ if {([class match [IP :: client_addr] equals ministi02_Tool_https://eag.telcoIta
 
 === Update User List for alsmobile
 
-* Connect to the active F5 BIG-IP LTM https://10.128.126.176[GUI] `10.128.126.176` then import the file containing the user lists:
+* Connect to the active F5 BIG-IP LTM https://10.429.126.176[GUI] `10.429.126.176` then import the file containing the user lists:
 
 IMPORTANT: It has to be done from `Common` Partition
 
@@ -1012,7 +1012,7 @@ NOTE: It rarely happens but: If there is Pending Sync at the top left next to th
 
 * Find out service name:
 . from `cmd` run: `nslookup <URL/FQDN> without https and without trailing /`
-. pick up the public IP and log into the firewall `10.133.121.142` `MI-VFX901`
+. pick up the public IP and log into the firewall `10.971.379.142` `MI-VFX901`
 . from DMZ context look for the local IP: show nat | i `<publicIP>`
 * Look up the ACL group:
 . login into F5, PRE or PRO depending on the request
@@ -1151,7 +1151,7 @@ NOTE: With the Public IP go to the DMZ context in ASA, and run a `sh nat | i <pu
 .Example:
 ```Cisco
 MIVFX900-1/DMZ/pri/act#  sh nat | i 91.80.46.172
-36 (LEGACY-DMZ) to (DSL_DATA) source static obj-10.129.166.149 91.80.46.172  no-proxy-arp
+36 (LEGACY-DMZ) to (DSL_DATA) source static obj-10.256.166.149 91.80.46.172  no-proxy-arp
 ```
 
 * With the IP given from the ASA go to F5 Network map with partition: All. Be aware of the port you need, 80 or 443
@@ -1208,7 +1208,7 @@ Address:  91.80.46.37
 Aliases:  scopriofferta.telcoItaly.it
 
 Private IP
-10.129.166.36
+10.256.166.36
 
 VS name
 minisiti02pro-discovery_HTTPS_vs
@@ -1249,11 +1249,11 @@ NOTE: Remember to be in All contexts
 |===
 |DNS |IP |Role
 
-|mi5fdsx008 |10.128.123.5 |DNS master
-|osx101v |10.129.166.21 .2+.^|DNS Public / External
-|osx102v |10.129.166.22 
-|osx103v |10.129.169.21 .2+.^|DNS Private / Internal
-|osx104v |10.129.169.22 
+|mi5fdsx008 |10.429.719.5 |DNS master
+|osx101v |10.256.166.21 .2+.^|DNS Public / External
+|osx102v |10.256.166.22 
+|osx103v |10.256.169.21 .2+.^|DNS Private / Internal
+|osx104v |10.256.169.22 
 |===
 
 TIP: DNS System Official Documentation https://www.isc.org/bind/[BIND 9]
@@ -1347,7 +1347,7 @@ The following is informative
 
 .Alternative route to DNS
 * Log into nexus 5k MIVMX904 or MIVMX905
-* Connect to DNS internal or External using `ssh zzbicchieri@10.129.166.21 vrf <vrfName>` 
+* Connect to DNS internal or External using `ssh zzbicchieri@10.256.166.21 vrf <vrfName>` 
 * Gain admin privileges `sudo su - `
 * Look for needed info: `grep <regex> /var/named/slaves/internal/*`
 
@@ -1363,12 +1363,12 @@ The following is informative
 |===
 |DNS |IP |Description
 
-|mta_vs |10.129.166.19 |vIP external
-|osx101v |10.129.166.21 .2+.^|MTA external
-|osx102v |10.129.166.22 
-|mta-int_vs |10.129.166.20 |vIP internal
-|osx103v |10.129.169.21 .2+.^|MTA internal
-|osx104v |10.129.169.22 
+|mta_vs |10.256.166.19 |vIP external
+|osx101v |10.256.166.21 .2+.^|MTA external
+|osx102v |10.256.166.22 
+|mta-int_vs |10.256.166.20 |vIP internal
+|osx103v |10.256.169.21 .2+.^|MTA internal
+|osx104v |10.256.169.22 
 |===
 
 NOTE: MTA = Mail Transfer Agent, it runs on port 25 and yes, same devices as DNS
@@ -1380,7 +1380,7 @@ NOTE: MTA = Mail Transfer Agent, it runs on port 25 and yes, same devices as DNS
 
 . Login to the two servers, osx101v and osx102v
 . `cd /etc/mail`
-. Add the new recipient: `echo "@net.telcoItaly.it       MailtelcoItaly:[10.129.166.20]" >> /etc/mail/smarttable`
+. Add the new recipient: `echo "@net.telcoItaly.it       MailtelcoItaly:[10.256.166.20]" >> /etc/mail/smarttable`
 . Rebuild the hash database file `makemap hash /etc/mail/smarttable.db < /etc/mail/smarttable`
 . Restart the Sendmail service for the changes to take effect: `service sendmail restart`
 
@@ -1392,7 +1392,7 @@ NOTE: MTA = Mail Transfer Agent, it runs on port 25 and yes, same devices as DNS
 * Make a backup of the current `/etc/mail/<file>` as showed `cp /etc/mail/<file> /etc/mail/<file>.bak`
 * Edit the `/etc/mail/<file>`
 ** https://vim.works/2019/03/03/emergency-vim-quickstart/[VIM]
-** If you need to append a line to the file you can `echo "@net.telcoItaly.it       MailtelcoItaly:[10.129.166.20]" >> /etc/mail/smarttable`
+** If you need to append a line to the file you can `echo "@net.telcoItaly.it       MailtelcoItaly:[10.256.166.20]" >> /etc/mail/smarttable`
 * Rebuild the hash database file: `makemap hash /etc/mail/<file> < /etc/mail/<file>`
 * Restart the Sendmail service for the changes to take effect: `service sendmail restart`
 
@@ -1418,9 +1418,9 @@ smtp_tls_mandatory_protocols = TLSv1.2
 
 === Verify The log MTA
 
-. Connect to the machines: `osx101v.private.it 10.129.166.21` and `osx102v.private.it 10.129.166.22`
+. Connect to the machines: `osx101v.private.it 10.256.166.21` and `osx102v.private.it 10.256.166.22`
 
-TIP: These machines can be reached from Ansible itmi3pans001 `10.133.59.24`
+TIP: These machines can be reached from Ansible itmi3pans001 `10.971.59.24`
 
 [start=2]
 . Log in as root and check the logs in `/var/log/mailog-`
@@ -1431,23 +1431,23 @@ TIP: These machines can be reached from Ansible itmi3pans001 `10.133.59.24`
 ```log
 Mar  9 09:22:19 osx101v sendmail[100119]: STARTTLS=client, relay=smtp.telcoItaly.arubamail.it., version=TLSv1/SSLv3, verify=FAIL, cipher=DHE-RSA-AES256-SHA, bits=256/256
 
-Mar  9 09:22:19 osx101v sendmail[100119]: 1298MECF100117: to=<vo-monitorcb@vola.it>,<redcarpet.1821@mail.telcoItaly.it>, delay=00:00:00, xdelay=00:00:00, mailer=telcoItaly, pri=171351, relay=smtp.telcoItaly.arubamail.it. [62.149.178.100], dsn=5.0.0, stat=Service unavailable
+Mar  9 09:22:19 osx101v sendmail[100119]: 2568MECF100117: to=<vo-monitorcb@vola.it>,<redcarpet.1821@mail.telcoItaly.it>, delay=00:00:00, xdelay=00:00:00, mailer=telcoItaly, pri=171351, relay=smtp.telcoItaly.arubamail.it. [62.149.178.100], dsn=5.0.0, stat=Service unavailable
 
-Mar  9 09:22:19 osx101v sendmail[100119]: 1298MECF100117: 1298MJCF100119: DSN: Service unavailable
+Mar  9 09:22:19 osx101v sendmail[100119]: 2568MECF100117: 2568MJCF100119: DSN: Service unavailable
 ```
 
 or
 
 ```
-Mar  9 09:37:32 osx101v sendmail[101076]: 1298bRqr101076: ruleset=check_rcpt, arg1=<test_qualysscan@smtpcheckqualys.smtp>, relay=sn001.s01.sea01.qualys.com [64.39.106.101] (may beforged), reject=550 5.7.1 <test_qualysscan@smtpcheckqualys.smtp>... Relaying denied. IP name possibly forged [64.39.106.101]
+Mar  9 09:37:32 osx101v sendmail[101076]: 2568bRqr101076: ruleset=check_rcpt, arg1=<test_qualysscan@smtpcheckqualys.smtp>, relay=sn001.s01.sea01.qualys.com [64.39.106.101] (may beforged), reject=550 5.7.1 <test_qualysscan@smtpcheckqualys.smtp>... Relaying denied. IP name possibly forged [64.39.106.101]
 
-Mar  9 09:37:32 osx101v sendmail[101076]: 1298bRqr101076: from=<qualysscan_test@smtpcheckqualys.smtp>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA1-private, relay=sn001.s01.sea01.qualys.com [64.39.106.101] (may be forged)
+Mar  9 09:37:32 osx101v sendmail[101076]: 2568bRqr101076: from=<qualysscan_test@smtpcheckqualys.smtp>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA1-private, relay=sn001.s01.sea01.qualys.com [64.39.106.101] (may be forged)
 
-Mar  9 09:37:32 osx101v sendmail[101076]: 1298bRqs101076: ruleset=check_rcpt, arg1=<qgmrtest%qualysguard.com@[91.80.46.120]>, relay=sn001.s01.sea01.qualys.com [64.39.106.101] (maybe forged), reject=550 5.7.1 <qgmrtest%qualysguard.com@[91.80.46.120]>... Relaying denied. IP name possibly forged [64.39.106.101]
+Mar  9 09:37:32 osx101v sendmail[101076]: 2568bRqs101076: ruleset=check_rcpt, arg1=<qgmrtest%qualysguard.com@[91.80.46.120]>, relay=sn001.s01.sea01.qualys.com [64.39.106.101] (maybe forged), reject=550 5.7.1 <qgmrtest%qualysguard.com@[91.80.46.120]>... Relaying denied. IP name possibly forged [64.39.106.101]
 
-Mar  9 09:37:32 osx101v sendmail[101076]: 1298bRqs101076: lost input channel from sn001.s01.sea01.qualys.com [64.39.106.101] (may be forged) to MTA1-private after rcpt
+Mar  9 09:37:32 osx101v sendmail[101076]: 2568bRqs101076: lost input channel from sn001.s01.sea01.qualys.com [64.39.106.101] (may be forged) to MTA1-private after rcpt
 
-Mar  9 09:37:32 osx101v sendmail[101076]: 1298bRqs101076: from=<qgmrfrom@[91.80.46.120]>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA1-private, relay=sn001.s01.sea01.qualys.com [64.39.106.101] (may be forged)
+Mar  9 09:37:32 osx101v sendmail[101076]: 2568bRqs101076: from=<qgmrfrom@[91.80.46.120]>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA1-private, relay=sn001.s01.sea01.qualys.com [64.39.106.101] (may be forged)
 ```
 
 <<<
@@ -1458,16 +1458,16 @@ Mar  9 09:37:32 osx101v sendmail[101076]: 1298bRqs101076: from=<qgmrfrom@[91.80.
 |===
 |DNS |IP |Role |Version
 
-|osx100v |10.129.166.100 |Proxy Active .3+.^|4.15
-|osx222v |10.129.166.102 |Proxy Standby
-|Proxy VIP |10.129.166.101:8080 | Balanced on F5
+|osx100v |10.256.166.100 |Proxy Active .3+.^|4.15
+|osx222v |10.256.166.102 |Proxy Standby
+|Proxy VIP |10.256.166.101:8080 | Balanced on F5
 |===
 
 === Proxy Squid Configuration
 * Connect to Ansible through https://eag.telcoItaly.com/vpn/index.html[EAG]
 * Check on ASA Firewall inside DMZ context
-* If there are ACLs towards the service port add: `access-list GLOBAL_ACL extended permit tcp host 10.129.166.102 any4 eq 8226`
-* From itmi3pans001 log into 10.129.166.100 aka osx100v
+* If there are ACLs towards the service port add: `access-list GLOBAL_ACL extended permit tcp host 10.256.166.102 any4 eq 8226`
+* From itmi3pans001 log into 10.256.166.100 aka osx100v
 * With root access create file in `/etc/squid/`
 * Insert domains in the file: `allowed-ACL_NAME.squid`
 * Edit the file:
@@ -1490,7 +1490,7 @@ CAUTION: Do not take `vi` or `vim` https://vim.works/2019/03/03/emergency-vim-qu
 ```bash
 #########################################################
 # Win Activation YYYYMMDD
-acl Win_Act src 10.128.124.15/32 10.128.124.16/32 
+acl Win_Act src 10.429.124.15/32 10.429.124.16/32 
 acl Win_Sites dstdomain "/etc/squid/allowed-win_act.squid"
 http_access allow Win_Act Win_Sites
 ######################################################### 
@@ -1501,13 +1501,13 @@ http_access allow Win_Act Win_Sites
 ** You can find the line with: `grep {portNumber} {fileName}`
 * Restart the service: `service squid restart`
 
-IMPORTANT: Mirror the configurations on `osx222v 10.129.166.102`
+IMPORTANT: Mirror the configurations on `osx222v 10.256.166.102`
 
 .Test it
 ```bash
 [root@osx222v squid]# tail -fn 100 /var/log/squid/access.log | grep api.think4u.cloud
-07/Jun/2021:16:49:35 +0200     23 10.129.166.112 TCP_MISS/503 0 CONNECT api.think4u.cloud:8226 DIRECT/151.8.211.133
-07/Jun/2021:16:50:20 +0200      0 10.129.166.112 TCP_MISS/503 0 CONNECT api.think4u.cloud:8226 DIRECT/151.8.211.133
+07/Jun/2021:16:49:35 +0200     23 10.256.166.112 TCP_MISS/503 0 CONNECT api.think4u.cloud:8226 DIRECT/151.8.211.971
+07/Jun/2021:16:50:20 +0200      0 10.256.166.112 TCP_MISS/503 0 CONNECT api.think4u.cloud:8226 DIRECT/151.8.211.971
 
 [root@osx222v squid]# grep api.think4u.cloud /var/log/squid/access.log
 ```
@@ -1545,7 +1545,7 @@ TIP: Any changes to be made to that mail can be done from that script
 
 === Folder on pans
 . Connecto to EAG
-. SSH to `10.133.59.24` `itmi3pans001` with preferred application
+. SSH to `10.971.59.24` `itmi3pans001` with preferred application
 . Gain root privileges. (`su`)
 . `/home/ansysad/certsFD`
 . `ls -lrth`
@@ -1903,9 +1903,9 @@ image:images/serviceWAF3.png[image,width=558,height=460]
 |===
 |Description |IP 
 
-|vRealize Log Insight |https://10.128.123.31/
-|Network Insight |https://10.128.123.55/
-|NSX vSphere |https://10.128.123.9/
+|vRealize Log Insight |https://10.429.719.31/
+|Network Insight |https://10.429.719.55/
+|NSX vSphere |https://10.429.719.9/
 |===
 
 === Create the IPSET in vSPhere
@@ -1942,11 +1942,11 @@ in case there is no Service set as the one you need -> add a new one, specifying
 |===
 |DNS |IP | Description
 
-|MI5FDSX011 |10.128.123.93 |Zabbix DB server 1
-|MI5FDSX012 |10.128.123.94 |Zabbix DB server 2
-|MI5FDSX013 |10.128.123.95 |Zabbix DB Backup
-|MI5FDSX014 |10.128.123.97 |Zabbix Engine / FrontEnd 1
-|MI5FDSX015 |10.128.123.98 |Zabbix Engine / FrontEnd 2
+|MI5FDSX011 |10.429.719.93 |Zabbix DB server 1
+|MI5FDSX012 |10.429.719.94 |Zabbix DB server 2
+|MI5FDSX013 |10.429.719.95 |Zabbix DB Backup
+|MI5FDSX014 |10.429.719.97 |Zabbix Engine / FrontEnd 1
+|MI5FDSX015 |10.429.719.98 |Zabbix Engine / FrontEnd 2
 |===
 
 === To dismiss Certificates in Zabbix
@@ -1965,7 +1965,7 @@ in case there is no Service set as the one you need -> add a new one, specifying
 
 === Proactive Monitoring FastDelivery Network
 
-.Open https://10.128.123.100/index.php[Zabbix]
+.Open https://10.429.719.100/index.php[Zabbix]
 image::images/zabix1.png[image,width=596,height=228]
 
 .Go to Tab Problems, where will be showed All Devices, in Fast Delivery:
@@ -2005,15 +2005,15 @@ image::images/zabix3.png[image,width=596,height=228]
 * `change context DMZ`
 ** `show nat | include <Virtual IP address>` 
 ** Fetch the public IP and remove it
-** `show access-list | i <10.129.x.x>`
+** `show access-list | i <10.256.x.x>`
 ** Identify and remove all of them
 ** If they can't be removed check by ACL's line and get the object-group: `show access-list | i line <number>` (You can use the IP block section to remove a single IP from the object-group)
 * `change context FRONTEND` 
-** `show access-list | i <10.129.x.x>`
+** `show access-list | i <10.256.x.x>`
 ** Identify and remove all of them
 ** If they can't be removed check by ACL's line and get the object-group: `show access-list | i line <number>` (You can use the IP block section to remove a single IP from the object-group)
 * `change context BACKEND` 
-** `show access-list | i <10.129.x.x>`
+** `show access-list | i <10.256.x.x>`
 ** Identify and remove all of them
 ** If they can't be removed check by ACL's line and get the object-group: `show access-list | i line <number>` (You can use the IP block section to remove a single IP from the object-group)
 
@@ -2029,7 +2029,7 @@ NOTE: Everything on the device must be black in order for Zabbix to stop monitor
 * Track the new freely available Public IPs, 91.80.46.x in the Tab and comment what they were used for, if there were any
 
 [start=3]
-. Log on vCenter MIVSX920 10.128.123.9, from chrome EAG
+. Log on vCenter MIVSX920 10.429.719.9, from chrome EAG
 . Find the devices and shut them down. Keep them offline one week and than delete them
 . Send an e-mail to roberta.geranio@telcoItaly.com, elizabeth.spezzano2@consultant.telcoItalyomnitel.it, davide.desalve@telcoItaly.com, stefania.sallusti@telcoItaly.com, with roberto.di-martino@consultant.telcoItalyomnitel.it, fabianamaria.basso@telcoItaly.com and gabriele.saronni@telcoItaly.com in Cc asking to remove them from backup and patching schedule
 . If we don't own the DNS, please point them to the https://telcoItaly.sharepoint.com/sites/V-DNA?xsdata=MDV8MDJ8Z2FicmllbGUuc2Fyb25uaUB2b2RhZm9uZS5jb218Yjc4NTYxY2UxODgwNGI2NzI3NTMwOGRjZDNjMGRhNTF8NjgyODNmM2I4NDg3NGM4NmFkYjNhNTIyOGYxOGI4OTN8MHwwfDYzODYxODA3MjUwNDI2NzA0NXxVbmtub3dufFRXRnBiR1pzYjNkOGV5SldJam9pTUM0d0xqQXdNREFpTENKUUlqb2lWMmx1TXpJaUxDSkJUaUk2SWsxaGFXd2lMQ0pYVkNJNk1uMD18MHx8fA%3d%3d&sdata=NHU4TzAxYzRyTHo1enJTSVBtbU43MGcxMG5BeEFyRmpvazZ5MEVCam5Idz0%3d#/[telcoItaly.it DNS] team
@@ -2087,8 +2087,8 @@ MIVMX904# sh ip prefix-list ?
 
 MIVMX904#sh ip prefix-list static-IT_CSP_TRANSIT
 ip prefix-list static-IT_CSP_TRANSIT: 2 entries
-   seq 5 permit 10.129.160.0/20
-   seq 10 permit 10.128.128.0/22
+   seq 5 permit 10.256.160.0/20
+   seq 10 permit 10.429.429.0/22
 ```
 * As seen before, the prefix are configured. Follow the procedure for each of them in the corresponding section in the ASR 9000 and Nexus 5000
 * Go to the `MIVFX900-1` (firewall) and add in each context the new route -> this might depend on the route you are pointing. This hop goes from IT_CSP_TRANSIT up to DMZ
@@ -2096,8 +2096,8 @@ ip prefix-list static-IT_CSP_TRANSIT: 2 entries
 .In case you need to add routes inside ASA contexts
 ```Cisco
 MIVFX900-1/MGMT/pri/act# ch co B
-MIVFX900-1/BACKEND/pri/act# sh route | i 100.66.182.128
-S        100.66.182.128 255.255.255.128 [1/0] via 192.168.28.1, IT_CSP_TRANSIT
+MIVFX900-1/BACKEND/pri/act# sh route | i 100.66.182.429
+S        100.66.182.429 255.255.255.429 [1/0] via 192.168.28.1, IT_CSP_TRANSIT
 ```
 
 .The service comes from 192.168.28.1 (IT_CSP_TRANSIT). That route is added to the context  
@@ -2498,7 +2498,7 @@ TIP: From file explorer powershell can be invoked with `shit + right click`
 . Open Remote Desktop Connection Manager or MobaXterm
 .. Remote Desktop Connection
 ... If there's no connection: Create settings `File` > `New`
-... Create connection to `10.129.175.32` aka `osq001v`
+... Create connection to `10.256.175.32` aka `osq001v`
 ... Go to `Properties` > `Local Resources`
 ... Unflag `Inherit from parent`
 ... Flag `Drives` (Make sure all drives are flagged)
@@ -2520,9 +2520,9 @@ CAUTION: Most of the times your personal files aren't reachable unless clicked f
 * From pans log in `gminnms117`
 * Log as `ansysad` then `sudo su - sys_kpi`
 
-* With this user `sftp` into `10.129.175.32` aka osq001v usually
+* With this user `sftp` into `10.256.175.32` aka osq001v usually
 ** Example:
-*** `sftp://ftptest@10.129.175.32/RILASCI_PRO_DONATION/DIST-Argo-2022-12-15-S17390-Argo_Update`
+*** `sftp://ftptest@10.256.175.32/RILASCI_PRO_DONATION/DIST-Argo-2022-12-15-S17390-Argo_Update`
 *** `sftp> get /D/FTPRoot/WAPPORTAL/ftptest/RILASCI_PRO_DONATION/DIST-Argo-2022-12-15-S17390-Argo_Update/*zip`
 * Return `ansysad` 
 * move the retrieved file to ansysad home folder: `sudo mv /home/sys_kpi/*zip /home/ansysad` 
@@ -3372,7 +3372,7 @@ NOTE: As of 20240408 Fastdelivery has: 188 and SysAdmin 956 lines
 
 ==== In case of erros:
 
-* Destination folder: `ssh sysadmin_sftp@10.133.225.176 ls -l /ACFSdisk/iuam_ade`
+* Destination folder: `ssh sysadmin_sftp@10.971.225.176 ls -l /ACFSdisk/iuam_ade`
 * expected output: `/ACFSdisk/iuam_ade`
 
 In case the file is not there: you need to upload them manually:
@@ -3386,14 +3386,14 @@ if csv not present:
 cd /home/sys_kpi/AccountReconciliation_GetUsers/output/SE_SysAdmin/cron/ade/yyyymmdd.hh/result
 
 cp systems.accounts Account-OS-SESysAdmin_ADE_yyyymm.csv
-scp Account-OS-SESysAdmin_ADE_yyyymm.csv sysadmin_sftp@10.133.225.176:/ACFSdisk/iuam_ade
+scp Account-OS-SESysAdmin_ADE_yyyymm.csv sysadmin_sftp@10.971.225.176:/ACFSdisk/iuam_ade
 
 cd /home/sys_kpi/AccountReconciliation_GetUsers/output/Fast_Delivery/cron/ade/yyyymmdd.hh/result
 
 cp systems.accounts Account-OS-Fast_Delivery_ADE_yyyymm.csv
-scp Account-OS-Fast_Delivery_ADE_yyyymm.csv sysadmin_sftp@10.133.225.176:/ACFSdisk/iuam_ade
+scp Account-OS-Fast_Delivery_ADE_yyyymm.csv sysadmin_sftp@10.971.225.176:/ACFSdisk/iuam_ade
 
-ssh sysadmin_sftp@10.133.225.176 ls -l /ACFSdisk/iuam_ade
+ssh sysadmin_sftp@10.971.225.176 ls -l /ACFSdisk/iuam_ade
 ```
 
 .Warn the team to run again the process
@@ -3404,8 +3404,8 @@ With Cc: boss2@consulences.com; manager@consulences.com
 
 potete proseguire con la lavorazione:
 
-ssh sysadmin_sftp@10.133.225.176 ls -l /ACFSdisk/iuam_ade
--rw-rw-rw- 1 sysadmin_sftp   sftp_ade        127669 Feb 23 17:59 Account-OS-Fast_Delivery_ADE_202402.csv
+ssh sysadmin_sftp@10.971.225.176 ls -l /ACFSdisk/iuam_ade
+-rw-rw-rw- 1 sysadmin_sftp   sftp_ade        379669 Feb 23 17:59 Account-OS-Fast_Delivery_ADE_202402.csv
 -rw-rw-rw- 1 sysadmin_sftp   sftp_ade        930697 Feb 23 17:58 Account-OS-SESysAdmin_ADE_202402.csv
 ```
 
@@ -3631,7 +3631,7 @@ rm -rf /app/telcoItaly/tda-registry/var/cache/twig/*
 Notify successful execution of STEP #3 and wait for confirmation from the vendor before concluding the change
 ```
 .Backup
-* From EAG open Egde Browser, using the https://10.128.123.9/[vmware vCenter]
+* From EAG open Egde Browser, using the https://10.429.719.9/[vmware vCenter]
 * In the search bar type `osx262v`
 * Once the info is displayed, go to actions, take snapshots and make a snapshot of the machine
 
