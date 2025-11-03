@@ -1600,13 +1600,13 @@ image:imagesCreateCert/image4.png[image,width=752,height=984]
 
 ==== Additional e-mails
 
-mailto:alfredo.sartacci@telcoItaly.com[alfredo.sartacci@telcoItaly.com]
+mailto:theBoss@telcoItaly.com[theBoss@telcoItaly.com]
 
 ."Specify the environment". Specify Prod if the certificate is production, Pre-prod if it is PreProduction
 image:imagesCreateCert/image5.png[image,width=752,height=471]
 
 [start=5]
-. Click on submit and send email to mailto:alfredo.sartacci@telcoItaly.com[alfredo.sartacci@telcoItaly.com] asking for approval. +
+. Click on submit and send email to mailto:theBoss@telcoItaly.com[theBoss@telcoItaly.com] asking for approval. +
 
 <<<
 
@@ -1621,8 +1621,8 @@ image:imagesCreateCert/image7.1.png[image,width=758,height=537]
 * If there is one CN only put it inside the field anyway.
 . In "Request/Service Description" specify a generic value: "web service"
 . Local Market/Country: "IT"
-. Operational/Delivery/Service Owner's and Business Owner's Email address specify: mailto:vasFDcertificati@internal.telcoItaly.com[vasFDcertificati@internal.telcoItaly.com]
-. Required Contacts: mailto:dl_vasfdops@telcoItaly.com[dl_vasfdops@telcoItaly.com]; mailto:alfredo.sartacci@telcoItaly.com[alfredo.sartacci@telcoItaly.com]; mailto:DL-VAS-Fast-Delivery@telcoItaly.com[DL-VAS-Fast-Delivery@telcoItaly.com]
+. Operational/Delivery/Service Owner's and Business Owner's Email address specify: mailto:DL-certificates@internal.telcoItaly.com[DL-certificates@internal.telcoItaly.com]
+. Required Contacts: mailto:dl-another-whynot@telcoItaly.com[dl-another-whynot@telcoItaly.com]; mailto:theBoss@telcoItaly.com[theBoss@telcoItaly.com]; mailto:DL-theDL@telcoItaly.com[DL-theDL@telcoItaly.com]
 . Keep track of request's number putting it inside the previously created share 
 . You'll receive certificate by the e-mail.
 
@@ -2036,7 +2036,7 @@ NOTE: Everything on the device must be black in order for Zabbix to stop monitor
 
 === Monitoring
 
-. send an e-mail to davide.dasaro@telcoItaly.com, dl_vasfdops@telcoItaly.com  with roberto.di-martino@consultant.telcoItalyomnitel.it, fabianamaria.basso@telcoItaly.com and gabriele.saronni@telcoItaly.com in Cc asking to remove them from monitoring
+. send an e-mail to davide.dasaro@telcoItaly.com, dl-another-whynot@telcoItaly.com  with roberto.di-martino@consultant.telcoItalyomnitel.it, fabianamaria.basso@telcoItaly.com and gabriele.saronni@telcoItaly.com in Cc asking to remove them from monitoring
 
 <<<
 
